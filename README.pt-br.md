@@ -2,7 +2,7 @@
 
 Uma landing page responsiva criada como projeto de portfólio em frontend e conteúdo.
 
-Este projeto representa um café fictício pensado para desenvolvedores, estudantes e criativo, combinando um ambiente acolhedor com produtividade e criatividade.  
+Este projeto representa um café fictício pensado para desenvolvedores, estudantes e criativos, combinando um ambiente acolhedor com produtividade e criatividade.  
 Também demonstra documentação bilíngue (EN / PT-BR).
 
 ---
