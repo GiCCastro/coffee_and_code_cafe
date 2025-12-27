@@ -13,7 +13,7 @@
     <header class="site-header">
         <div class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-coffee">
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="header-icon-coffee">
                 <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
                 <path d="M2 8h16v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8z"></path>
                 <line x1="6" y1="1" x2="6" y2="4"></line>
@@ -24,17 +24,17 @@
         </div>
         <nav class="main-nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="hero-section">
+        <section class="hero-section" id="home">
             <article class="hero-content">
                 <h1 class="hero-title">
                     Sip. Code. Repeat<br>Let your ideas brew
@@ -45,7 +45,7 @@
             </article>
         </section>
 
-        <section class="about-section">
+        <section class="about-section" id="about">
 
             <article class="about-text">
                 <h2 class="about-title">
@@ -55,7 +55,7 @@
                     A space designed for developers, students, and creatives who need energy, focus, and a spark of
                     inspiration.
                 </p>
-                <p class="about-description"> Here, you can debug, study, build, and exchange ideas — all in a cozy,
+                <p class="about-description"> Here, you can debug, study, build, and exchange ideas. All in a cozy,
                     welcoming
                     environment that fuels productivity and creativity.</p>
             </article>
@@ -90,7 +90,7 @@
             </article>
         </section>
 
-        <section class="menu-section">
+        <section class="menu-section" id="menu">
 
             <article class="menu-header">
                 <h2 class="menu-title">Our Menu</h2>
@@ -198,7 +198,7 @@
             </article>
         </section>
 
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
 
             <article class="contact-header">
                 <h2 class="contact-title">Get In Touch</h2>
@@ -271,7 +271,7 @@
                         <label class="form-label">Message</label>
                         <textarea class="form-textarea" placeholder="Tell us what's on your mind..."></textarea>
 
-                        <input class="form-button" type="button" value="Send Message">
+                        <button class="form-button">Send Message</button>
                     </form>
                 </article>
 
@@ -279,8 +279,61 @@
 
         </section>
 
-
     </main>
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+            <section class="footer-main">
+                <article class="footer-brand">
+                    <div class="footer-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-icon-coffee">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                            <path d="M2 8h16v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8z"></path>
+                            <line x1="6" y1="1" x2="6" y2="4"></line>
+                            <line x1="10" y1="1" x2="10" y2="4"></line>
+                            <line x1="14" y1="1" x2="14" y2="4"></line>
+                        </svg>
+                        <span class="footer-brand-name">Coffee & Code Café</span>
+                    </div>
+                    <p class="footer-brand-description">
+                        Your favorite place to code, create, and connect over great coffee.
+                    </p>
+                </article>
+
+                <nav class="footer-nav">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link-item"><a class="footer-link" href="#home">Home</a></li>
+                        <li class="footer-link-item"><a class="footer-link" href="#menu">Menu</a></li>
+                        <li class="footer-link-item"><a class="footer-link" href="#about">About</a></li>
+                        <li class="footer-link-item"><a class="footer-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <article class="footer-social">
+                    <h3 class="footer-title">Follow Us</h3>
+
+                    <div class="footer-social-icons">
+                        <div class="social-icon-wrapper">
+                            <i class="fa-brands fa-facebook-f social-icon"></i>
+                        </div>
+                        <div class="social-icon-wrapper">
+                            <i class="fa-brands fa-twitter social-icon"></i>
+                        </div>
+                        <div class="social-icon-wrapper">
+                            <i class="fa-brands fa-instagram social-icon"></i>
+                        </div>
+                    </div>
+
+                </article>
+
+            </section>
+            <p class="footer-copy">© 2025 Coffee & Code Café. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
