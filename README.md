@@ -2,7 +2,7 @@
 
 A responsive landing page created as a frontend and content-focused sample project.
 
-This project represents a fictional café designed for developers, students, and creatives. Combining a cozy atmosphere with productivity and creativity.  
+This project represents a fictional café designed for developers, students, and creatives, combining a cozy atmosphere with productivity and creativity.  
 It also demonstrates bilingual documentation (EN / PT-BR).
 
 ---
